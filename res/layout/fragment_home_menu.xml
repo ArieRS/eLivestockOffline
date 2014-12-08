@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvWelcomePilihMenu"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textMultiLine"
+        android:text="Mencari Data Sapi Betina dengan Input" />
+
+    <Button
+        android:id="@+id/buttonCariByNIT"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvWelcomePilihMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="NIT"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCariByMoncong"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/buttonCariByNIT"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Moncong Sapi"
+        android:textSize="20sp" />
+
+</RelativeLayout>

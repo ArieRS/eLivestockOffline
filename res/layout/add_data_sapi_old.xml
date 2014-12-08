@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/ScrollViewAddDataSapi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LinearAddButton" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/AddDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/data_sapi"
+                android:textSize="20sp" />
+            <!-- NIT -->
+
+            <TextView
+                android:id="@+id/txtNITAddDataSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/AddDataSapi"
+                android:layout_marginTop="20dp"
+                android:text="@string/nit" />
+
+            <EditText
+                android:id="@+id/edtNIT"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtNITAddDataSapi"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="150dp"
+                android:layout_toRightOf="@+id/txtNITAddDataSapi"
+                android:editable="true"
+                android:hint="@string/nit"
+                android:inputType="textLongMessage" />
+            <!-- Lokasi -->
+
+            <TextView
+                android:id="@+id/txtLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNITAddDataSapi"
+                android:layout_marginTop="10dp"
+                android:text="@string/lokasi" />
+
+            <Spinner
+                android:id="@+id/spinLokasi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtLokasiSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!-- Bangsa -->
+
+            <TextView
+                android:id="@+id/txtBangsaSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtLokasiSapi"
+                android:layout_marginTop="10dp"
+                android:text="@string/bangsa_sapi" />
+
+            <Spinner
+                android:id="@+id/spinBangsaSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtBangsaSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!-- Tanggal Lahir -->
+
+            <TextView
+                android:id="@+id/txtTanggalLahirSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBangsaSapi"
+                android:layout_marginTop="10dp"
+                android:text="@string/tanggal_lahir" />
+
+            <EditText
+                android:id="@+id/edtTanggalLahirSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtTanggalLahirSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!-- NIT Induk -->
+
+            <TextView
+                android:id="@+id/txtNITIndukSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtTanggalLahirSapi"
+                android:layout_marginTop="10dp"
+                android:text="@string/nit_induk" />
+
+            <Spinner
+                android:id="@+id/spinNITIndukSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtNITIndukSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!-- Bentuk Wajah -->
+
+            <TextView
+                android:id="@+id/txtBentukWajahSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtNITIndukSapi"
+                android:layout_marginTop="10dp"
+                android:text="@string/bentuk_wajah" />
+
+            <EditText
+                android:id="@+id/edtBentukWajah"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtBentukWajahSapi"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="150dp"
+                android:layout_toRightOf="@+id/txtNITAddDataSapi"
+                android:hint="@string/bentuk_wajah"
+                android:inputType="textLongMessage" />
+            <!-- Warna -->
+
+            <TextView
+                android:id="@+id/txtWarnaSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtBentukWajahSapi"
+                android:layout_marginTop="20dp"
+                android:text="@string/warna" />
+
+            <EditText
+                android:id="@+id/edtWarnaSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtWarnaSapi"
+                android:layout_alignLeft="@+id/edtBentukWajah"
+                android:layout_alignParentRight="true"
+                android:hint="@string/warna"
+                android:inputType="textLongMessage" />
+
+            <!-- Status Punuk -->
+
+            <TextView
+                android:id="@+id/txtPunukSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtWarnaSapi"
+                android:layout_marginTop="20dp"
+                android:text="@string/status_punuk" />
+
+            <Spinner
+                android:id="@+id/spinStatusPunukSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtPunukSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!--
+    <RadioGroup 
+        android:id="@+id/edtWarnaSapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_parent"
+        android:layout_below="@+id/edtWarnaSapi"
+        android:layout_alignBottom="@+id/txtPunukSapi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_toRightOf="@+id/txtNITAddDataSapi"
+        android:hint="@string/warna"
+        android:inputType="textLongMessage"
+        android:textSize="16dp" 
+        >
+        <RadioButton 
+		    android:id="@+id/edtWarnaSapi1111"
+		    android:text="yes"
+		    />
+		<RadioButton 
+		    android:id="@+id/edtWarnaSapi11"
+		    android:text="no"
+		    />	        
+	</RadioGroup>
+            -->
+            <!-- Status Aksesoris Sapi -->
+
+            <TextView
+                android:id="@+id/txtAksesorisSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPunukSapi"
+                android:layout_marginTop="20dp"
+                android:text="@string/aksesoris_sapi" />
+
+            <Spinner
+                android:id="@+id/spinAksesorisSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtAksesorisSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!-- Status Kepemilikan -->
+
+            <TextView
+                android:id="@+id/txtKepemilikanSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAksesorisSapi"
+                android:layout_marginTop="20dp"
+                android:text="@string/kepemilikan" />
+
+            <Spinner
+                android:id="@+id/spinStatusKepemilikanSapi"
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/txtKepemilikanSapi"
+                android:layout_alignLeft="@+id/edtNIT"
+                android:layout_alignParentRight="true" />
+            <!--  -->
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/LinearAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonBatal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/buttonSimpanData"
+            android:text="Batal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSimpanData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

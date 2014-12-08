@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="10dp"
+        android:text="@string/btnIntend" />
+
+    <TextView
+        android:id="@+id/TvNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTakePicture"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:text="@string/nit"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/EditNIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TvNIT"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TvNIT"
+        android:layout_toRightOf="@+id/TvNIT"
+        android:hint="@string/nit"
+        android:paddingBottom="10sp"
+        android:paddingLeft="20sp"
+        android:textSize="20sp"
+        android:visibility="visible" 
+        android:editable="false"
+        android:focusableInTouchMode="false"/>
+
+    <Button
+        android:id="@+id/btnRegisterDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvNIT"
+        android:text="@string/btnRegister"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegisterDatabase"
+        android:visibility="visible" />
+
+</RelativeLayout>

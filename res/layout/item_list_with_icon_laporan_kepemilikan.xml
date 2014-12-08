@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linearItemLaporanKepemilikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageIconLaporanKepemilikan"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvNITLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="NIT"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvIdLokasiLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Lokasi"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvTanggalLahirLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBangsaLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangsa"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNitIndukLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nit Induk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBentukWajahLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk Wajah"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvWarnaLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warna"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvStatusPunukLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Punuk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvStatusAksesorisLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Aksesoris Kaki"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvStatusKepemilikanLaporanKepemilikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Kepemilikan"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPerubahanKepemilikanLaporanKepemilikan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Perubahan Kepemilikan"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <Button 
+                android:id="@+id/buttonDetailLaporanKepemilikan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:textSize="12sp"
+                android:layout_marginLeft="30dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageIconLaporanKepemilikan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_home" />
+</RelativeLayout>

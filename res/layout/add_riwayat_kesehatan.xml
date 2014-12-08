@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewRiwayatKesehatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false"
+        android:text="@string/riwayatKesehatan" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearRiwayatKesehatan"
+        android:layout_below="@+id/viewRiwayatKesehatan" >
+
+        <LinearLayout
+            android:id="@+id/Lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTanggalPemeriksaanRiwayatKesehatan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/tanggal_pemeriksaan" />
+
+            <EditText
+                android:id="@+id/edtTanggalPemeriksaanRiwayatKesehatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tanggal_pemeriksaan"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvDiagnosaRiwayatKesehatan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/diagnosa" />
+
+            <EditText
+                android:id="@+id/edtDiagnosaRiwayatKesehatan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/diagnosa"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/tvPerlakuanRiwayatKesehatan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/perlakuan" />
+
+            <EditText
+                android:id="@+id/edtPerlakuanRiwayatKesehatan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/perlakuan"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearRiwayatKesehatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSimpanRiwayatKesehatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_data" />
+
+        <Button
+            android:id="@+id/buttonBatalRiwayatKesehatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal" />
+    </LinearLayout>
+
+</RelativeLayout>

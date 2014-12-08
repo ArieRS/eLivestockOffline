@@ -1,0 +1,404 @@
+<resources>
+
+    <string name="app_name">eLivestock</string>
+    <string name="welcome">Selamat Datang Di eLivestock Indonesia</string>
+    <string name="insertEarTag">Masukkan Eartag Sapi Betina</string>
+    <string name="cari">Cari</string>
+    <string name="cari_data_sapi">Cari Data Sapi</string>
+    <string name="login">Login</string>
+    <string name="copyright">e-live stock copyright universitas indonesia</string>
+    <string name="beranda">Beranda</string>
+    <string name="data_sapi">Data Sapi</string>
+    <string name="tambah_data_sapi">Tambah Data Sapi</string>
+    <string name="insertIDEarTag">Masukkan ID Ear Tag Sapi</string>
+    <string name="laporan">Laporan</string>
+    <string name="penyakit">Penyakit</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="populasi_area">Populasi Area</string>
+    <string name="populasi_lokasi">Populasi Lokasi</string>
+    <string name="sapi_produktif">Sapi Produktif</string>
+    <string name="kepemilikan">Kepemilikan</string>
+    <string name="penyembelihan">Penyembelihan</string>
+    <string name="bangsa_sapi">Bangsa Sapi</string>
+    <string name="ai">AI</string>
+    <string name="kelahiran_pedet">Kelahiran Pedet</string>
+    <string name="master">Master</string>
+    <string name="kabupaten_kota">Kabupaten/Kota</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="contact">Kampus UI Depok, Indonesia 16424 Telp: +62 21 786 3419 Fax: +62 21 786 3415</string>
+    <string name="pengaturan_akun">Pengaturan Akun</string>
+    <string name="manajemen_user">Manajemen User</string>
+    <string name="log_out">Log Out</string>
+    <string name="pengaturan_pass">Pengaturan Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="ualngi_password_baru">Ulangi Password Baru</string>
+    <string name="simpan_data">Simpan Data</string>
+    <string name="batal">Batal</string>
+
+    <!-- detail data sapi -->
+    <string name="kejadianBeranak">Data Kejadian Beranak</string>
+    <string name="riwayatKesehatan">Data Riwayat Kesehatan</string>
+    <string name="kejadianIB">Data Kejadian IB</string>
+    <string name="perubahanKepemelikan">Data Perubahan Kepemilikan</string>
+    <string name="kejadianKematian">Kejadian Kematian</string>
+    <string name="tanggal_kematian">Tanggal Kematian Sapi</string>
+    <string name="sebab_kematian">Sebab Kematian Sapi</string>
+    <string name="tidakAdaData">-----</string>
+
+    <!-- add data sapi -->
+    <string name="nit">NIT</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="bentuk_wajah">Bentuk Wajah</string>
+    <string name="nit_induk">NIT Induk</string>
+    <string name="warna">Warna</string>
+    <string name="status_punuk">Status Punuk</string>
+    <string name="aksesoris_sapi">Aksesoris Sapi</string>
+    <string name="addDataSapi">Add Data Sapi</string>
+
+    <!-- add data provinsi -->
+    <string name="nama_provinsi">Nama Provinsi</string>
+    <string name="data_provinsi">Data Provinsi</string>
+    <string name="addDataProvinsi">Add Data Provinsi</string>
+
+    <!-- add data bangsa sapi -->
+    <string name="nama_bangsa">Nama Bangsa</string>
+    <string name="data_bangsa_sapi">Data Bangsa Sapi</string>
+    <string name="addDataBangsaSapi">Add Data Bangsa Sapi</string>
+
+    <!-- add data kabupaten kota -->
+    <string name="nama_kabupaten_kota">Nama Kabupaten/Kota</string>
+    <string name="data_kabupaten_kota">Data Kabupaten/Kota</string>
+    <string name="addDataKabupatenKota">Add Data Kabupaten/Kota</string>
+
+    <!-- add data lokasi -->
+    <string name="data_lokasi">Data Lokasi</string>
+    <string name="addDataLokasi">Add Data Lokasi</string>
+    <string name="nama_kontak">Nama Kontak</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_telepon">No Telepon</string>
+    <string name="type">Type</string>
+    <string name="petugas">Petugas</string>
+
+    <!-- laporan penyakit sapi -->
+    <string name="laporan_riwayat_peyakit_sapi">Laporan Riwayat Penyakit Sapi</string>
+    <string name="laporan_peyakit_sapi">Laporan Penyakit Sapi</string>
+    <string name="laporan_lokasi_sapi">Laporan Lokasi Sapi</string>
+    <string name="laporan_populasi_sapi">Laporan Populasi Sapi</string>
+    <string name="laporan_populasi_area_sapi">Laporan Populasi Sapi Dan Area</string>
+    <string name="laporan_sapi_produktif">Laporan Sapi Produktif</string>
+    <string name="laporan_perubahan_kepemilikan_sapi">Laporan Perubahan Kepemilikan Sapi</string>
+    <string name="laporan_sapi_disembeli">Laporan Sapi Disembelih</string>
+    <string name="laporan_sapi_berdasarkan_bangsa">Laporan Sapi Berdasarkan Bangsa</string>
+    <string name="laporan_ai_sapi">Laporan AI</string>
+    <string name="laporan_kelahiran_pedet">Laporan Kelahiran Pedet</string>
+
+    <!-- kejadian beranak -->
+    <string name="tanggal_beranak">Tanggal Beranak</string>
+    <string name="banyak_anak_betina">Banyak Anak Betina</string>
+    <string name="banyak_anak_jantan">Banyak Anak Jantan</string>
+
+    <!-- Riwayat Kesehatan -->
+    <string name="tanggal_pemeriksaan">Tanggal Pemeriksaan</string>
+    <string name="diagnosa">Diagnosa</string>
+    <string name="perlakuan">Perlakuan</string>
+
+    <!-- Kejadian IB -->
+    <string name="kode_straw">Kode Straw</string>
+    <string name="tanggal_ib">Tanggal IB</string>
+
+    <!-- actionbar -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- add transaction name -->
+    <string name="add_master_lokasi">add els_lokasi</string>
+    <string name="add_master_kabupaten_kota">add els_kabupaten_kota</string>
+    <string name="add_master_provinsi">add els_provinsi</string>
+    <string name="add_master_bangsa_sapi">add master_bangsa_sapi</string>
+    <string name="add_data_sapi_betina">add els_sapi_betina</string>
+    <string name="add_kejadian_beranak">add els_kejadian_beranak</string>
+    <string name="add_riwayat_kesehatan">add els_pemeriksaan_kesehatan</string>
+    <string name="add_kejadian_ib">add els_kejadian_ib</string>
+    <string name="add_perubahan_kepemilikan">add els_perubahan_kepemilikan</string>
+    <string name="add_data_kematian">add els_kejadian_kematian</string>
+
+    <!-- edit transaction name -->
+    <string name="edit_master_lokasi">edit els_lokasi</string>
+    <string name="edit_master_kabupaten_kota">edit els_kabupaten_kota</string>
+    <string name="edit_master_provinsi">edit els_provinsi</string>
+    <string name="edit_master_bangsa_sapi">edit master_bangsa_sapi</string>
+    <string name="edit_data_sapi_betina">edit els_sapi_betina</string>
+    <string name="edit_kejadian_beranak">edit els_kejadian_beranak</string>
+    <string name="edit_riwayat_kesehatan">edit els_pemeriksaan_kesehatan</string>
+    <string name="edit_kejadian_ib">edit els_kejadian_ib</string>
+    <string name="edit_perubahan_kepemilikan">edit els_perubahan_kepemilikan</string>
+    <string name="edit_data_kematian">edit els_kejadian_kematian</string>
+
+    <!-- delete transaction name -->
+    <string name="delete_master_lokasi">delete els_lokasi</string>
+    <string name="delete_master_kabupaten_kota">delete els_kabupaten_kota</string>
+    <string name="delete_master_provinsi">delete els_provinsi</string>
+    <string name="delete_master_bangsa_sapi">delete master_bangsa_sapi</string>
+    <string name="delete_data_sapi_betina">delete els_sapi_betina</string>
+    <string name="delete_kejadian_beranak">delete els_kejadian_beranak</string>
+    <string name="delete_riwayat_kesehatan">delete els_pemeriksaan_kesehatan</string>
+    <string name="delete_kejadian_ib">delete els_kejadian_ib</string>
+    <string name="delete_perubahan_kepemilikan">delete els_perubahan_kepemilikan</string>
+    <string name="delete_data_kematian">delete els_kejadian_kematian</string>
+
+    <!-- Server Message -->
+    <string name="failed_insert_to_server">Gagal Memasukkan Data ke Server</string>
+	<string name="failed_edit_to_server">Gagal Merubah Data di Server</string>
+	<string name="failed_delete_to_server">Gagal Menghapus Data di Server </string>
+	
+   <!--  
+    <string name="url_insert_master_bangsa">http://192.168.43.51/els2/index.php/ws/insert/method/master_bangsa_sapi</string>
+    <string name="url_insert_master_provinsi">http://192.168.43.51/els2/index.php/ws/insert/method/els_provinsi</string>
+    <string name="url_insert_master_kabupaten_kota">http://192.168.43.51/els2/index.php/ws/insert/method/els_kabupaten_kota</string>
+    <string name="url_insert_master_lokasi">http://192.168.43.51/els2/index.php/ws/insert/method/els_lokasi</string>
+   
+    
+    <string name="url_insert_sapi_betina">http://192.168.43.51/els2/index.php/ws/insert/method/els_sapi_betina</string>
+    <string name="url_insert_kejadian_beranak">http://192.168.43.51/els2/index.php/ws/insert/method/els_kejadian_beranak</string>
+    <string name="url_insert_riwayat_kesehatan">http://192.168.43.51/els2/index.php/ws/insert/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_insert_kejadian_ib">http://192.168.43.51/els2/index.php/ws/insert/method/els_kejadian_ib</string>
+    <string name="url_insert_perubahan_kepemilikan">http://192.168.43.51/els2/index.php/ws/insert/method/els_perubahan_kepemilikan</string>
+    <string name="url_insert_data_kematian">http://192.168.43.51/els2/index.php/ws/insert/method/els_kejadian_kematian</string>
+
+    
+    <string name="url_edit_master_bangsa">http://192.168.43.51/els2/index.php/ws/edit/method/master_bangsa_sapi</string>
+    <string name="url_edit_master_provinsi">http://192.168.43.51/els2/index.php/ws/edit/method/els_provinsi</string>
+    <string name="url_edit_master_kabupaten_kota">http://192.168.43.51/els2/index.php/ws/edit/method/els_kabupaten_kota</string>
+    <string name="url_edit_master_lokasi">http://192.168.43.51/els2/index.php/ws/edit/method/els_lokasi</string>
+    
+    
+    <string name="url_edit_sapi_betina">http://192.168.43.51/els2/index.php/ws/edit/method/els_sapi_betina</string>
+    <string name="url_edit_kejadian_beranak">http://192.168.43.51/els2/index.php/ws/edit/method/els_kejadian_beranak</string>
+    <string name="url_edit_riwayat_kesehatan">http://192.168.43.51/els2/index.php/ws/edit/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_edit_kejadian_ib">http://192.168.43.51/els2/index.php/ws/edit/method/els_kejadian_ib</string>
+    <string name="url_edit_perubahan_kepemilikan">http://192.168.43.51/els2/index.php/ws/edit/method/els_perubahan_kepemilikan</string>
+    <string name="url_edit_data_kematian">http://192.168.43.51/els2/index.php/ws/edit/method/els_kejadian_kematian</string>
+
+    
+    
+    <string name="url_delete_master_bangsa">http://192.168.43.51/els2/index.php/ws/delete/method/master_bangsa_sapi</string>
+    <string name="url_delete_master_provinsi">http://192.168.43.51/els2/index.php/ws/delete/method/els_provinsi</string>
+    <string name="url_delete_master_kabupaten_kota">http://192.168.43.51/els2/index.php/ws/delete/method/els_kabupaten_kota</string>
+    <string name="url_delete_master_lokasi">http://192.168.43.51/els2/index.php/ws/delete/method/els_lokasi</string>
+    
+    
+    <string name="url_delete_sapi_betina">http://192.168.43.51/els2/index.php/ws/delete/method/els_sapi_betina</string>
+    <string name="url_delete_kejadian_beranak">http://192.168.43.51/els2/index.php/ws/delete/method/els_kejadian_beranak</string>
+    <string name="url_delete_riwayat_kesehatan">http://192.168.43.51/els2/index.php/ws/delete/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_delete_kejadian_ib">http://192.168.43.51/els2/index.php/ws/delete/method/els_kejadian_ib</string>
+    <string name="url_delete_perubahan_kepemilikan">http://192.168.43.51/els2/index.php/ws/delete/method/els_perubahan_kepemilikan</string>
+    <string name="url_delete_data_kematian">http://192.168.43.51/els2/index.php/ws/delete/method/els_kejadian_kematian</string>
+    
+    <string name="url_get_table">http://192.168.43.51/els2/index.php/ws/get_table/method/all/format/json</string>
+    <string name="url_get_all_table">http://192.168.43.51/els2_get/index.php/ws/get_table/method/all/format/json</string>
+    <string name="url">http://192.168.43.51/els2/index.php/ws/login/format/json</string>
+    <string name="url_ppt">http://192.168.43.51/els2/index.php/ws/get_ppt</string>
+    <string name="ip">http://192.168.43.51</string>
+ -->    
+ <!-- 
+    <string name="url_insert_master_bangsa">http://elivestockindonesia.com/index.php/ws/insert/method/master_bangsa_sapi</string>
+    <string name="url_insert_master_provinsi">http://elivestockindonesia.com/index.php/ws/insert/method/els_provinsi</string>
+    <string name="url_insert_master_kabupaten_kota">http://elivestockindonesia.com/index.php/ws/insert/method/els_kabupaten_kota</string>
+    <string name="url_insert_master_lokasi">http://elivestockindonesia.com/index.php/ws/insert/method/els_lokasi</string>
+   
+    
+    <string name="url_insert_sapi_betina">http://elivestockindonesia.com/index.php/ws/insert/method/els_sapi_betina</string>
+    <string name="url_insert_kejadian_beranak">http://elivestockindonesia.com/index.php/ws/insert/method/els_kejadian_beranak</string>
+    <string name="url_insert_riwayat_kesehatan">http://elivestockindonesia.com/index.php/ws/insert/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_insert_kejadian_ib">http://elivestockindonesia.com/index.php/ws/insert/method/els_kejadian_ib</string>
+    <string name="url_insert_perubahan_kepemilikan">http://elivestockindonesia.com/index.php/ws/insert/method/els_perubahan_kepemilikan</string>
+    <string name="url_insert_data_kematian">http://elivestockindonesia.com/index.php/ws/insert/method/els_kejadian_kematian</string>
+
+    
+    <string name="url_edit_master_bangsa">http://elivestockindonesia.com/index.php/ws/edit/method/master_bangsa_sapi</string>
+    <string name="url_edit_master_provinsi">http://elivestockindonesia.com/index.php/ws/edit/method/els_provinsi</string>
+    <string name="url_edit_master_kabupaten_kota">http://elivestockindonesia.com/index.php/ws/edit/method/els_kabupaten_kota</string>
+    <string name="url_edit_master_lokasi">http://elivestockindonesia.com/index.php/ws/edit/method/els_lokasi</string>
+    
+    
+    <string name="url_edit_sapi_betina">http://elivestockindonesia.com/index.php/ws/edit/method/els_sapi_betina</string>
+    <string name="url_edit_kejadian_beranak">http://elivestockindonesia.com/index.php/ws/edit/method/els_kejadian_beranak</string>
+    <string name="url_edit_riwayat_kesehatan">http://elivestockindonesia.com/index.php/ws/edit/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_edit_kejadian_ib">http://elivestockindonesia.com/index.php/ws/edit/method/els_kejadian_ib</string>
+    <string name="url_edit_perubahan_kepemilikan">http://elivestockindonesia.com/index.php/ws/edit/method/els_perubahan_kepemilikan</string>
+    <string name="url_edit_data_kematian">http://elivestockindonesia.com/index.php/ws/edit/method/els_kejadian_kematian</string>
+
+    
+    
+    <string name="url_delete_master_bangsa">http://elivestockindonesia.com/index.php/ws/delete/method/master_bangsa_sapi</string>
+    <string name="url_delete_master_provinsi">http://elivestockindonesia.com/index.php/ws/delete/method/els_provinsi</string>
+    <string name="url_delete_master_kabupaten_kota">http://elivestockindonesia.com/index.php/ws/delete/method/els_kabupaten_kota</string>
+    <string name="url_delete_master_lokasi">http://elivestockindonesia.com/index.php/ws/delete/method/els_lokasi</string>
+    
+    
+    <string name="url_delete_sapi_betina">http://elivestockindonesia.com/index.php/ws/delete/method/els_sapi_betina</string>
+    <string name="url_delete_kejadian_beranak">http://elivestockindonesia.com/index.php/ws/delete/method/els_kejadian_beranak</string>
+    <string name="url_delete_riwayat_kesehatan">http://elivestockindonesia.com/index.php/ws/delete/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_delete_kejadian_ib">http://elivestockindonesia.com/index.php/ws/delete/method/els_kejadian_ib</string>
+    <string name="url_delete_perubahan_kepemilikan">http://elivestockindonesia.com/index.php/ws/delete/method/els_perubahan_kepemilikan</string>
+    <string name="url_delete_data_kematian">http://elivestockindonesia.com/index.php/ws/delete/method/els_kejadian_kematian</string>
+    
+    <string name="url_get_table">http://elivestockindonesia.com/index.php/ws/get_table/method/all/format/json</string>
+    <string name="url">http://elivestockindonesia.com/index.php/ws/login/format/json</string>
+    <string name="url_ppt">http://elivestockindonesia.com/index.php/ws/get_ppt</string>
+     -->
+    
+     <string name="url_insert_master_bangsa">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/master_bangsa_sapi</string>
+    <string name="url_insert_master_provinsi">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_provinsi</string>
+    <string name="url_insert_master_kabupaten_kota">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_kabupaten_kota</string>
+    <string name="url_insert_master_lokasi">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_lokasi</string>
+   
+    
+    <string name="url_insert_sapi_betina">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_sapi_betina</string>
+    <string name="url_insert_kejadian_beranak">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_kejadian_beranak</string>
+    <string name="url_insert_riwayat_kesehatan">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_insert_kejadian_ib">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_kejadian_ib</string>
+    <string name="url_insert_perubahan_kepemilikan">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_perubahan_kepemilikan</string>
+    <string name="url_insert_data_kematian">http://23.101.23.239:8080/penelitian_sapi/ws/insert/method/els_kejadian_kematian</string>
+
+    
+    <string name="url_edit_master_bangsa">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/master_bangsa_sapi</string>
+    <string name="url_edit_master_provinsi">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_provinsi</string>
+    <string name="url_edit_master_kabupaten_kota">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_kabupaten_kota</string>
+    <string name="url_edit_master_lokasi">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_lokasi</string>
+    
+    
+    <string name="url_edit_sapi_betina">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_sapi_betina</string>
+    <string name="url_edit_kejadian_beranak">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_kejadian_beranak</string>
+    <string name="url_edit_riwayat_kesehatan">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_edit_kejadian_ib">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_kejadian_ib</string>
+    <string name="url_edit_perubahan_kepemilikan">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_perubahan_kepemilikan</string>
+    <string name="url_edit_data_kematian">http://23.101.23.239:8080/penelitian_sapi/ws/edit/method/els_kejadian_kematian</string>
+
+    
+    
+    <string name="url_delete_master_bangsa">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/master_bangsa_sapi</string>
+    <string name="url_delete_master_provinsi">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_provinsi</string>
+    <string name="url_delete_master_kabupaten_kota">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_kabupaten_kota</string>
+    <string name="url_delete_master_lokasi">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_lokasi</string>
+    
+    
+    <string name="url_delete_sapi_betina">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_sapi_betina</string>
+    <string name="url_delete_kejadian_beranak">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_kejadian_beranak</string>
+    <string name="url_delete_riwayat_kesehatan">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_pemeriksaan_kesehatan</string>
+    <string name="url_delete_kejadian_ib">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_kejadian_ib</string>
+    <string name="url_delete_perubahan_kepemilikan">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_perubahan_kepemilikan</string>
+    <string name="url_delete_data_kematian">http://23.101.23.239:8080/penelitian_sapi/ws/delete/method/els_kejadian_kematian</string>
+    
+    <string name="url_get_table">http://23.101.23.239:8080/penelitian_sapi/ws/get_table/method/all/format/json</string>
+    <string name="url">http://23.101.23.239:8080/penelitian_sapi/ws/login/format/json</string>
+    <string name="url_ppt">http://23.101.23.239:8080/penelitian_sapi/ws/get_ppt</string>
+    
+    
+    
+    <!-- Perubahan Kempemilikan -->
+    <string name="data_kepemilikan">Data Kepemilikan</string>
+    <string name="lokasi_sebelumnya">Lokasi Sebelumnya</string>
+    <string name="lokasi_sesudah">Lokasi Sesudah</string>
+    <string name="tanggal_kejadian">Tanggal Kejadian</string>
+
+    <string-array name="slider_drawer_items_admin">
+        <item>Beranda</item>
+        <item>Data Sapi</item>
+        <item>Laporan</item>
+        <item>Master</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="slider_drawer_items_aho">
+
+        <!--
+        datasapi
+        	tambah data
+        	kejadian beranak
+        	riwayat kesehatan   
+        -->
+        <item>Beranda</item>
+        <item>Data Sapi</item>
+        <item>Laporan</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="slider_drawer_items_ppt">
+
+        <!--
+        	Data Sapi
+        		
+        	laporan
+        		11
+        	master 
+        		lokasi  
+        -->
+        <item>Beranda</item>
+        <item>Data Sapi</item>
+        <item>Laporan</item>
+        <item>Master</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="slider_drawer_items_ins">
+
+        <!--
+        	Data Sapi
+        		
+        	laporan
+        		Ai
+        		Kelahiran pedet
+        	master 
+        		lokasi  
+        -->
+        <item>Beranda</item>
+        <item>Data Sapi</item>
+        <item>Laporan</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="slider_drawer_items_dkota">
+        <item>Beranda</item>
+        <item>Laporan</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="slider_drawer_items_login">
+        <item>Login</item>
+        <item>Beranda</item>
+    </string-array>
+    <string-array name="slider_drawer_icon">
+        <item>@drawable/home_ic</item>
+        <item>@drawable/data_sapi_ic</item>
+        <item>@drawable/laporan_ic</item>
+        <item>@drawable/master_ic</item>
+        <item>@drawable/logout_ic</item>
+        <item>@drawable/login_ic</item>
+    </string-array>
+    <string-array name="menu">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="menu_delete">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="menu_data_sapi">
+        <item>Register Moncong Sapi</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="menu_riwayat_kesehatan">
+        <item>Edit Riwayat</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="menu_kejadian_ib">
+        <item>Edit Kejadian IB</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="menu_perubahan_kepemilikan">
+        <!-- <item>Edit Perubahan Kepemilikan</item> -->
+        <item>Delete</item>
+    </string-array>
+    
+    <string name="data_not_complete">Data Tidak Lengkap</string>
+ 
+</resources>

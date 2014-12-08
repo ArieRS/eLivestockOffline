@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<!-- NIT -->
+    <TextView
+        android:id="@+id/nitDetailKejadianBeranak"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtNitDetailKejadianBeranak"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/nitDetailKejadianBeranak"
+        android:text="oke1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+	<!-- NIT -->
+	
+	<!-- Tanggal Beranak -->
+	<TextView
+        android:id="@+id/tanggalBeranak"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nitDetailKejadianBeranak"
+        android:text="oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtTanggalBeranak"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/tanggalBeranak"
+        android:layout_alignBottom="@+id/tanggalBeranak"
+        android:text="oke1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<!-- Tanggal Beranak -->
+	
+	<!-- Banyaknya Anak Betina -->
+	<TextView
+        android:id="@+id/banyaknyaAnakBetina"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tanggalBeranak"
+        android:text="oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtbanyaknyaAnakBetina"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/banyaknyaAnakBetina"
+        android:layout_alignBottom="@+id/banyaknyaAnakBetina"
+        android:text="oke1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<!-- Banyakny Anak Betina -->
+	
+	<!-- Banyaknya Anak Jantan -->
+	<TextView
+        android:id="@+id/banyaknyaAnakJantan"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banyaknyaAnakBetina"
+        android:text="oke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtbanyaknyaAnakJantan"
+        style="@style/TextHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="120dp"
+        android:layout_toRightOf="@+id/banyaknyaAnakJantan"
+        android:layout_alignBottom="@+id/banyaknyaAnakJantan"
+        android:text="oke1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+	
+	<!-- Banyakny Anak Jantan -->
+</RelativeLayout>

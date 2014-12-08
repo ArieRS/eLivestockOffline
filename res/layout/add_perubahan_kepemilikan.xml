@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewPerubahanKepemilikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false"
+        android:text="@string/data_kepemilikan" >
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearAddPerubahanKepemilikan"
+        android:layout_below="@+id/viewPerubahanKepemilikan" >
+
+        <LinearLayout
+            android:id="@+id/Lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvLokasiSebelumnyaPerubahanKepemilikan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/lokasi_sebelumnya" />
+
+            <Spinner
+                android:id="@+id/spinLokasiSebelumnyaPerubahanKepemilikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lokasi_sebelumnya" />
+
+            <TextView
+                android:id="@+id/tvLokasiSesudahPerubahanKepemilikan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/lokasi_sesudah" />
+
+            <Spinner
+                android:id="@+id/spinLokasiSesudahPerubahanKepemilikan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/lokasi_sesudah" />
+
+            <TextView
+                android:id="@+id/tvTanggalKejadianPerubahanKepemilikan"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/tanggal_kejadian" />
+
+            <EditText
+                android:id="@+id/edtTanggalKejadianPerubahanKepemilikan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="YYYY-MM-DD"
+                android:inputType="date" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearAddPerubahanKepemilikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSimpanPerubahanKepemilikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_data" />
+
+        <Button
+            android:id="@+id/buttonBatalPerubahanKepemilikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal" />
+    </LinearLayout>
+
+</RelativeLayout>

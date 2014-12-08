@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewDataLokasiSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false"
+        android:text="@string/data_lokasi" >
+    </Button>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linAddDataLokasi"
+        android:layout_below="@+id/viewDataLokasiSapi" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvNamaKontakLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/nama_kontak" />
+
+            <EditText
+                android:id="@+id/edtNamaKontakLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_kontak"
+                android:inputType="textPersonName"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvKabupatenKotaLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/kabupaten_kota" />
+
+            <Spinner
+                android:id="@+id/spinKabupatenKotaLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|fill_horizontal"
+                android:popupBackground="@color/spinnerBackGround" />
+
+            <TextView
+                android:id="@+id/tvAlamatLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/alamat" />
+
+            <EditText
+                android:id="@+id/edtAlamatLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/alamat"
+                android:inputType="textPostalAddress"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvNoTeleponLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/no_telepon" />
+
+            <EditText
+                android:id="@+id/edtNoTeleponLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/no_telepon"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvTypeLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/type" />
+
+            <Spinner
+                android:id="@+id/spinTypeLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|fill_horizontal"
+                android:popupBackground="@color/spinnerBackGround" />
+
+            <TextView
+                android:id="@+id/tvPetugasLokasiSapi"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/petugas" />
+
+            <Spinner
+                android:id="@+id/spinPetugasLokasiSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|fill_horizontal"
+                android:popupBackground="@color/spinnerBackGround" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linAddDataLokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/buttonSimpanLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_data" />
+
+        <Button
+            android:id="@+id/buttonBatalLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal" />
+    </LinearLayout>
+
+</RelativeLayout>

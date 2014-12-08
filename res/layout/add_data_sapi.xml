@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/viewAddDataSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false"
+        android:text="@string/data_sapi"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/LinearAddButton"
+        android:layout_below="@+id/viewAddDataSapi" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvNITEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="NIT :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtNITEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvNITEditDataSapi"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvNITEditDataSapi"
+                android:hint="NIT"
+                android:textColor="@color/black"
+                android:textSize="18sp" 
+                android:inputType="phone"
+                android:digits="1234567890"
+                android:maxLength="17"/>
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvLokasiEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNITEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Lokasi :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinLokasiEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvBangsaEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Bangsa :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinBangsaEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="Bangsa"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvTanggalLahirEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBangsaEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Tanggal Lahir :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtTanggalLahirEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvTanggalLahirEditDataSapi"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvTanggalLahirEditDataSapi"
+                android:hint="YYYY-MM-DD"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textSize="18sp" 
+                android:digits="1234567890-"/>
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvNITIndukEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTanggalLahirEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="NIT Induk :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinNITIndukEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvBentukWajahEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNITIndukEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Bentuk Wajah :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtBentukWajahEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvBentukWajahEditDataSapi"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvBentukWajahEditDataSapi"
+                android:hint="Bentuk Wajah"
+                android:textColor="@color/black"
+                android:textSize="18sp" 
+                android:inputType="text"
+                android:digits="qwertyuiopasdfghjklzxcvbnm "
+                android:maxLength="30"/>
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvWarnaEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBentukWajahEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Warna :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtWarnaEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tvWarnaEditDataSapi"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvWarnaEditDataSapi"
+                android:hint="Warna"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:inputType="text"
+                android:digits="qwertyuiopasdfghjklzxcvbnm " 
+                android:maxLength="50"/>
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvStatusPunukEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWarnaEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Status Punuk :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinStatusPunukEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_alignTop="@+id/tvStatusPunukEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvStatusPunukEditDataSapi"
+                android:hint="Status Punuk"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvStatusAksesorisKakiEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvStatusPunukEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Status Aksesoris Kaki :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinStatusAksesorisKakiEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_alignTop="@+id/tvStatusAksesorisKakiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvStatusAksesorisKakiEditDataSapi"
+                android:hint="Status Aksesoris Kaki"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+
+            <TextView
+                android:id="@+id/tvStatusKepemilikanEditDataSapi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvStatusAksesorisKakiEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Status Kepemilikan :"
+                android:textColor="@color/black"
+                android:textSize="18sp" >
+            </TextView>
+
+            <Spinner
+                android:id="@+id/spinStatusKepemilikanEditDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtLokasiEditDataSapi"
+                android:layout_alignTop="@+id/tvStatusKepemilikanEditDataSapi"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/tvStatusKepemilikanEditDataSapi"
+                android:hint="Status Kepemilikan"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+            <!-- ////////////////////////// -->
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/LinearAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/buttonSimpanData"
+            android:text="Batal"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonSimpanData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</RelativeLayout>

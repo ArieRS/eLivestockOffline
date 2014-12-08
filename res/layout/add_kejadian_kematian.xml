@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvTanggalDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Tanggal Kematian :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtTanggalDataKematian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="YYYY-MM-DD"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvSebabDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Sebab Kematian :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinSebabDataKematian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Sebab Kematian"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvLokasiDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Lokasi :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinLokasiDataKematian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Bangsa"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+
+        <!--
+             <Button
+            android:id="@+id/buttonEditDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearDataKematian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSimpanDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_data" />
+
+        <Button
+            android:id="@+id/buttonBatalDataKematian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal" />
+    </LinearLayout>
+
+</RelativeLayout>

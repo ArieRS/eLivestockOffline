@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linearItemLaporanSapiArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageIconLaporanSapiArea"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvNITLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="NIT"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLokasiLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvTanggalLahirLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBangsaLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangsa"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNitIndukLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nit Induk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBentukWajahLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk Wajah"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvWarnaLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warna"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvPunukLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Punuk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvAksesorisKakiLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Aksesoris Kaki"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tvKepemilikanLaporanSapiArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Kepemilikan"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageIconLaporanSapiArea"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_home" />
+
+</RelativeLayout>

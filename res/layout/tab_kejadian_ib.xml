@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   	<ListView
+   	    android:id="@+id/listKejadianIBTab"
+   	    android:layout_above="@+id/buttonAddKejadianIBTab"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:layout_alignParentTop="true"
+   	    />
+   	<Button
+   	    android:id="@+id/buttonAddKejadianIBTab"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:text="Tambah Data IB"
+   	    android:layout_alignParentBottom="true"
+   	    />
+</RelativeLayout>

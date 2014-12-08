@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewLaporanPopulasiLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/seperatorDataSapi"
+        android:text="@string/laporan_populasi_sapi" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLaporanPopulasiLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewLaporanPopulasiLokasi"
+        android:background="@color/softGreen" >
+
+       <!--  <TextView
+            android:id="@+id/txtProvinsiLaporanPenyakit"
+            style="@style/TextHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/provinsi" />
+
+        <Spinner
+            android:id="@+id/spinProvinsiLaporanPenyakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtProvinsiLaporanPenyakit"
+            android:layout_marginLeft="75dp"
+            android:layout_toRightOf="@+id/txtProvinsiLaporanPenyakit" />
+
+        <TextView
+            android:id="@+id/txtKabupatenKotaLaporanPenyakit"
+            style="@style/TextHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProvinsiLaporanPenyakit"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/kabupaten_kota" />
+
+        <Spinner
+            android:id="@+id/spinKabupatenKotaLaporanPenyakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtKabupatenKotaLaporanPenyakit"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/txtKabupatenKotaLaporanPenyakit" />
+
+        <Button
+            android:id="@+id/buttonCariLaporanPenyakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spinKabupatenKotaLaporanPenyakit"
+            android:layout_below="@+id/spinKabupatenKotaLaporanPenyakit"
+            android:layout_marginTop="30dp"
+            android:background="@color/list_background_pressed"
+            android:text="@string/cari" /> -->
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ListFragmentLaporanPopulasiLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/viewLaporanPopulasiLokasi"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:smoothScrollbar="true" >
+    </ListView>
+</RelativeLayout>

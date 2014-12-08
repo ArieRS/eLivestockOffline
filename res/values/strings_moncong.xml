@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_make_photo">MakePhotoActivity</string>
+    <string name="title_activity_take_picture">TakePicture</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btnIntend">Take Muzzle Picture</string>
+    <string name="btnSend">Identify Picture</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+    <string name="album_name">MoncongSapi1</string>
+    <!-- HOme -->
+    <string name="btnRegister">Register Picture</string>
+    <string name="btnIdentify">Identify Picture</string>
+    <!-- register -->
+    <string name="jenis">Jenis Sapi	: </string>
+    <string name="lokasi">Lokasi	: </string>
+    <string name="JenisKelamin">Jenis Kelamin	: </string>
+    <string name="EarTag">EarTag	: </string>
+    
+    <string name="ip">IP	:</string>
+    <string name="ip_hint">Insert IP	Address</string> 
+    <!-- Spinner -->
+    <string-array name="JenisSapi">
+        <item>Jawa</item>
+        <item>Bali</item>
+        <item>Madura</item>
+        <item>Pesisir</item>
+        <item>Aceh</item>
+        <item>Unknown</item>
+    </string-array>
+    <string-array name="lokasi">
+        <item>Jawa</item>
+        <item>Bali</item>
+    </string-array>
+    <string-array name="JenisKelamin">
+        <item>Jantan</item>
+        <item>Betina</item>
+    </string-array>
+    <!-- URL -->
+   <!--  <string name="URLServer">http://192.168.43.51/e-livestock1/</string> -->
+    <string name="URLServer_Moncong">http://elivestockvm.cloudapp.net:8080/e-livestock/</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>

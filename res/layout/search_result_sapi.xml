@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:fadeScrollbars="false"
+    android:scrollbarStyle="outsideInset">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/data_sapi"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchDataSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonKejadianBeranak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/listSearchDataSapi"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/kejadianBeranak"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchKejadianBeranak"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollingCache="false" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonRiwayatKesehatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/riwayatKesehatan"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchRiwayatKesehatan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonKejadianIB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/kejadianIB"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchKejadianIB"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonPerubahanKepemilikan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/perubahanKepemelikan"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchPerubahanKepemilikan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonKejadianKematian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/seperatorDataSapi"
+                android:enabled="false"
+                android:text="@string/kejadianKematian"
+                android:textSize="20sp" />
+
+            <ListView
+                android:id="@+id/listSearchKejadianKematian"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

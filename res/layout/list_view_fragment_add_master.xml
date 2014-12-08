@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<Button
+        android:id="@+id/viewDataMaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false">
+    </Button>
+    <ListView
+        android:id="@+id/ListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:fastScrollEnabled="true"
+        android:scrollbars="vertical"
+        android:smoothScrollbar="true" 
+        android:layout_above="@+id/buttonAdd"
+        android:layout_below="@+id/viewDataMaster">
+    </ListView>
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Add Bangsa Sapi" >
+    </Button>
+</RelativeLayout>
+

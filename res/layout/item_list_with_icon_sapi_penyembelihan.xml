@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linearItemLaporanPenyembelihan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/imageIconLaporanPenyembelihan"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvNITLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:text="NIT"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLokasiLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvTanggalLahirLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvTanggalKematianLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Kematian"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBangsaLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangsa"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvNitIndukLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nit Induk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvBentukWajahLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk Wajah"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvWarnaLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warna"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvPunukLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Punuk"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvAksesorisKakiLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Aksesoris Kaki"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvKepemilikanLaporanPenyembelihan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status Kepemilikan"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageIconLaporanPenyembelihan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_home" />
+
+</RelativeLayout>

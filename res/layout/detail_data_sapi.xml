@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonDataSapi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/data_sapi"
+                    android:textSize="20sp" />
+
+                <!-- NIT -->
+
+                <TextView
+                    android:id="@+id/NITDataSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonDataSapi"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/nit" />
+
+                <TextView
+                    android:id="@+id/txtNITDataSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/NITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/buttonDataSapi"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/NITDataSapi"
+                    android:text="@string/nit" />
+                <!-- Lokasi -->
+
+                <TextView
+                    android:id="@+id/LokasiSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NITDataSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/lokasi" />
+
+                <TextView
+                    android:id="@+id/txtLokasiSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/LokasiSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/LokasiSapi"
+                    android:text="@string/lokasi" />
+                <!-- Bangsa -->
+
+                <TextView
+                    android:id="@+id/BangsaSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/LokasiSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/bangsa_sapi" />
+
+                <TextView
+                    android:id="@+id/txtBangsaSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/BangsaSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/BangsaSapi"
+                    android:text="@string/bangsa_sapi" />
+                <!-- Tanggal Lahir -->
+
+                <TextView
+                    android:id="@+id/TanggalLahirSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BangsaSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tanggal_lahir" />
+
+                <TextView
+                    android:id="@+id/txtTanggalLahirSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/TanggalLahirSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/TanggalLahirSapi"
+                    android:text="@string/tanggal_lahir" />
+                <!-- NIT Induk -->
+
+                <TextView
+                    android:id="@+id/NITIndukSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TanggalLahirSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/nit_induk" />
+
+                <TextView
+                    android:id="@+id/txtNITIndukSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/NITIndukSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/NITIndukSapi"
+                    android:text="@string/nit_induk" />
+                <!-- Bentuk Wajah -->
+
+                <TextView
+                    android:id="@+id/BentukWajahSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/NITIndukSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/bentuk_wajah" />
+
+                <TextView
+                    android:id="@+id/txtBentukWajahSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/BentukWajahSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/BentukWajahSapi"
+                    android:text="@string/bentuk_wajah" />
+                <!-- Warna -->
+
+                <TextView
+                    android:id="@+id/WarnaSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BentukWajahSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/warna" />
+
+                <TextView
+                    android:id="@+id/txtWarnaSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/WarnaSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/WarnaSapi"
+                    android:text="@string/warna" />
+                <!-- Status Punuk -->
+
+                <TextView
+                    android:id="@+id/PunukSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/WarnaSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/status_punuk" />
+
+                <TextView
+                    android:id="@+id/txtPunukSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/PunukSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/PunukSapi"
+                    android:text="@string/status_punuk" />
+                <!-- Status Aksesoris Sapi -->
+
+                <TextView
+                    android:id="@+id/AksesorisSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/PunukSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/aksesoris_sapi" />
+
+                <TextView
+                    android:id="@+id/txtAksesorisSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/AksesorisSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/AksesorisSapi"
+                    android:text="@string/aksesoris_sapi" />
+                <!-- Status Kepemilikan -->
+
+                <TextView
+                    android:id="@+id/KepemilikanSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/AksesorisSapi"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/kepemilikan" />
+
+                <TextView
+                    android:id="@+id/txtKepemilikanSapi"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/KepemilikanSapi"
+                    android:layout_alignLeft="@+id/txtNITDataSapi"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/KepemilikanSapi"
+                    android:text="@string/kepemilikan" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/buttonKejadianBeranak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/kejadianBeranak"
+                    android:textSize="20sp" />
+
+                <ListView 
+                    android:id="@+id/listBeranak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/buttonKejadianBeranak" />
+               
+            <!--     <ExpandableListView
+                    android:id="@+id/expandableBeranak"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/buttonKejadianBeranak" /> -->
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonRiwayatKesehatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/riwayatKesehatan"
+                    android:textSize="20sp" />
+
+                <ExpandableListView
+                    android:id="@+id/expandableKesehatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonRiwayatKesehatan" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonKejadianIB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/kejadianIB"
+                    android:textSize="20sp" />
+
+                <ExpandableListView
+                    android:id="@+id/expandableKejadianIB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonKejadianIB" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonPerubahanKepemilikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/perubahanKepemelikan"
+                    android:textSize="20sp" />
+
+                <ExpandableListView
+                    android:id="@+id/expandableKepemilikan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonPerubahanKepemilikan" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonKejadianKematian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="@string/kejadianKematian"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/Tanggalkematian"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonKejadianKematian"
+                    android:text="@string/tanggal_kematian" 
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/txtTanggalkematian"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/Tanggalkematian"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/Tanggalkematian"
+                    android:text="@string/tidakAdaData" 
+                    />
+
+                <TextView
+                    android:id="@+id/SebabKematian"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Tanggalkematian"
+                    android:text="@string/sebab_kematian" />
+
+                <TextView
+                    android:id="@+id/txtSebabkematian"
+                    style="@style/TextHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/SebabKematian"
+                    android:layout_alignLeft="@+id/txtTanggalkematian"
+                    android:layout_toRightOf="@+id/SebabKematian"
+                    android:text="@string/tidakAdaData" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

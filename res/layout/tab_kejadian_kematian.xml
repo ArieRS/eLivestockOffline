@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvTanggalKematianTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Tanggal Kematian :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtTanggalKematianTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Tanggal Kematian"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvSebabKematianTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Sebab Kematian :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtSebabKematianTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Sebab Kematian"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvLokasiKematianTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Lokasi :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtLokasiKematianTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Bangsa"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+
+		<!-- ////////////////////////// -->
+
+        <TextView
+            android:id="@+id/tvIdPetugasKematianTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Id Petugas :"
+            android:textColor="@color/black"
+            android:textSize="18sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtIdPetugasKematianTab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Id Petugas"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <!-- ////////////////////////// -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddDataKematian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Input Kematian" />
+
+    <Button
+        android:id="@+id/buttonEditDataKematian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Edit Kematian"
+        android:visibility="invisible" />
+     <Button
+        android:id="@+id/buttonDeletetDataKematian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonEditDataKematian"
+        android:text="Delete Kematian"
+        android:visibility="invisible" />
+
+</RelativeLayout>

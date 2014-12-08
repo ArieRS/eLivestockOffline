@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/viewDataKejadianBeranak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/seperatorDataSapi"
+        android:enabled="false"
+        android:text="@string/kejadianBeranak" 
+        android:textColor="@color/white">
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearKejadianBeranak"
+        android:layout_below="@+id/viewDataKejadianBeranak" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTanggalBeranakKejadianBeranak"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/tanggal_beranak" />
+
+            <EditText
+                android:id="@+id/edtTanggalBeranakKejadianBeranak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:hint="YYYY-MM-DD"
+                android:inputType="phone"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvBanyakAnakBetinaKejadianBeranak"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/banyak_anak_betina" />
+
+            <EditText
+                android:id="@+id/edtBanyakAnakBetinaKejadianBeranak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:digits="0,1,2"
+                android:hint="Banyak Anak Betina 2 ekor"
+                android:inputType="phone|number"
+                android:maxLength="1"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/tvBanyakAnakJantanKejadianBeranak"
+                style="@style/Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingTop="20dp"
+                android:text="@string/banyak_anak_jantan" />
+
+            <EditText
+                android:id="@+id/edtBanyakAnakJantanKejadianBeranak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:digits="0,1,2"
+                android:hint="Banyak Anak Jantan 2 ekor"
+                android:inputType="phone|number"
+                android:maxLength="1"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:id="@+id/linDataSapiBetinaKe1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- ////////////////////////// -->
+
+                <Button
+                    android:id="@+id/viewDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="Data Sapi Betina Ke-1" 
+                    android:textColor="@color/white">
+                </Button>
+
+                <TextView
+                    android:id="@+id/tvNITDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NIT :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtNITDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="1234567890"
+                    android:hint="NIT"
+                    android:inputType="phone"
+                    android:maxLength="17"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvLokasiDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Lokasi :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinLokasiDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvBangsaDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bangsa :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinBangsaDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Bangsa"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvTanggalLahirDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBangsaEditDataSapi"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Tanggal Lahir :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtTanggalLahirDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="1234567890-"
+                    android:hint="YYYY-MM-DD"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvNITIndukDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NIT Induk :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinNITIndukDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvBentukWajahDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bentuk Wajah :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtBentukWajahDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm "
+                    android:hint="Bentuk Wajah"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvWarnaDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Warna :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtWarnaDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm "
+                    android:hint="Warna"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusPunukDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Punuk :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusPunukDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Punuk"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusAksesorisKakiDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Aksesoris Kaki :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusAksesorisKakiDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Aksesoris Kaki"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusKepemilikanDataSapiBetinaKe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Kepemilikan :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusKepemilikanDataSapiBetinaKe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Kepemilikan"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linDataSapiBetinaKe2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!-- ////////////////////////// -->
+
+                <Button
+                    android:id="@+id/viewDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/seperatorDataSapi"
+                    android:enabled="false"
+                    android:text="Data Sapi Betina Ke-2" 
+                    android:textColor="@color/white">
+                </Button>
+
+                <TextView
+                    android:id="@+id/tvNITDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NIT :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtNITDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="1234567890"
+                    android:hint="NIT"
+                    android:inputType="phone"
+                    android:maxLength="17"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvLokasiDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Lokasi :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinLokasiDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvBangsaDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bangsa :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinBangsaDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Bangsa"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvTanggalLahirDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBangsaEditDataSapi"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Tanggal Lahir :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtTanggalLahirDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="1234567890-"
+                    android:hint="YYYY-MM-DD"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvNITIndukDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="NIT Induk :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinNITIndukDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvBentukWajahDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bentuk Wajah :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtBentukWajahDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm "
+                    android:hint="Bentuk Wajah"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvWarnaDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Warna :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtWarnaDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:digits="qwertyuiopasdfghjklzxcvbnm "
+                    android:hint="Warna"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusPunukDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Punuk :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusPunukDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Punuk"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusAksesorisKakiDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Aksesoris Kaki :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusAksesorisKakiDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Aksesoris Kaki"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+
+                <TextView
+                    android:id="@+id/tvStatusKepemilikanDataSapiBetinaKe2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Status Kepemilikan :"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" >
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spinStatusKepemilikanDataSapiBetinaKe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Status Kepemilikan"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <!-- ////////////////////////// -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearKejadianBeranak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSimpanKejadianBeranak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan_data" />
+
+        <Button
+            android:id="@+id/buttonBatalKejadianBeranak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/batal" />
+    </LinearLayout>
+
+</RelativeLayout>
